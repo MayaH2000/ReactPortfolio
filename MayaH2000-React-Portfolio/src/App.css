@@ -1,42 +1,69 @@
+/* Set styles for the root element; keep content centered */
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
+/* Set styles for the header */
+header {
+  background-color: #f4a261; /* Change the background color as needed */
+  padding: 1rem; /* Add padding to create space around the content */
+  position: fixed; /* Position the header fixed at the top of the viewport */
+  top: 0; /* Position the header at the top of the viewport */
+  left: 0; /* Position the header at the left edge of the viewport */
+  width: 100%; /* Make the header span the full width of the viewport */
+  z-index: 1000; /* Set a high z-index to ensure the header appears on top of other content */
+}
 
+/* Styles for the navigation links */
+nav ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+  display: inline; /* Display the list items inline */
+  margin-right: 1rem; /* Add margin between the list items */
+}
+
+nav ul li a {
+  color: #fff; /* Set the text color for the links */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1.2rem; /* Adjust font size as needed */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Styles for the logo */
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
+
+/* Hover effect for the logo */
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
+/* Apply animation to logo if motion is not reduced */
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
 
+/* Styles for the card */
 .card {
   padding: 2em;
 }
 
+/* Styles for the "read-the-docs" paragraph */
 .read-the-docs {
   color: #888;
 }

@@ -35,9 +35,7 @@ function App() {
       <div className="contact">
         {/* Add your contact information here */}
       </div>
-      <p className="read-the-docs">
-        Click on my logo to learn more
-      </p>
+      
     </>
   );
 }
