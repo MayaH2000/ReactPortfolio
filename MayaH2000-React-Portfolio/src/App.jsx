@@ -1,35 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import myLogo from './assets/my-logo.png'; // Replace with your logo image
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="ReactPortfolio/MayaH2000-React-Portfolio/src/components/pages/Home.jsx">Home</a></li>
+            <li><a href="ReactPortfolio/MayaH2000-React-Portfolio/src/components/pages/About.jsx">About</a></li>
+            <li><a href="ReactPortfolio/MayaH2000-React-Portfolio/src/components/pages/Blog.jsx">Blog</a></li>
+            <li><a href="ReactPortfolio/MayaH2000-React-Portfolio/src/components/pages/Contact.jsx">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <img src={myLogo} className="logo" alt="My Logo" />
       </div>
-      <h1>Vite + React</h1>
+      <h1>My Portfolio</h1>
+      {/* Add your portfolio content here */}
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        {/* Your portfolio content goes here */}
+      </div>
+      {/* Add your project components here */}
+      <div className="projects">
+        {/* Add your project components here */}
+      </div>
+      {/* Add your about me content here */}
+      <div className="about">
+        {/* Add your about me content here */}
+      </div>
+      {/* Add your contact information here */}
+      <div className="contact">
+        {/* Add your contact information here */}
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on my logo to learn more
       </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
