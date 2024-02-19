@@ -1,14 +1,9 @@
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Hi there! I'm Maya Hernandez, a passionate web developer with a keen interest in creating engaging and user-friendly websites. I love diving into code, solving problems, and bringing creative ideas to life through digital experiences. When I'm not coding, you can find me exploring the outdoors, experimenting with new recipes in the kitchen, or immersing myself in a good book. I'm always eager to learn and grow both personally and professionally, and I'm excited about the opportunities that lie ahead in the ever-evolving world of technology.
       </p>
     </div>
   );
