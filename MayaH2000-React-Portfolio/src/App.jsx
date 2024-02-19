@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import myLogo from './assets/my-logo.png'; // Replace with your logo image
 import './App.css';
 
