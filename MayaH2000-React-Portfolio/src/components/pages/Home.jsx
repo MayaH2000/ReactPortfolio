@@ -1,18 +1,13 @@
+// Home component displaying Maya Marie Hernandez's portfolio projects
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      {/* Introduction to Maya Marie Hernandez's portfolio */}
+      <h1>Portfolio Projects</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        Welcome to Maya Marie Hernandez's portfolio! Here you can explore a collection
+        of web development projects showcasing various skills and expertise in the field.
+        Feel free to browse through the projects and get inspired!
       </p>
     </div>
   );
