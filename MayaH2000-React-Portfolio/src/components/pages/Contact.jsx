@@ -3,7 +3,7 @@ import './../../App.jsx'
 
 export default function Contact() {
   return (
-    <div>
+    <div className="contact-content">
       {/* Contact details */}
       <h1>Contact Maya Marie Hernandez</h1>
       <p>

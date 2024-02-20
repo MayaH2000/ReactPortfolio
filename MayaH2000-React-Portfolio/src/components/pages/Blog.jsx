@@ -2,7 +2,7 @@ import './../../App.jsx'
 
 export default function Blog() {
   return (
-    <div>
+    <div className="blog-content">
       <h1>Blog Page</h1>
       <p>
       Originally from California, I've made Kansas my current home, bringing new experiences and a change in surroundings that showcase my adaptability and willingness to explore different environments.

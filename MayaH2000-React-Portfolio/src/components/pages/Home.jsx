@@ -3,7 +3,7 @@ import './../../App.jsx'
 
 export default function Home() {
   return (
-    <div>
+    <div className="home-content">
       {/* Introduction to Maya Marie Hernandez's portfolio */}
       <h1>Portfolio Projects</h1>
       <p>

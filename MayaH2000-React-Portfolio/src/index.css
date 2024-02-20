@@ -1,8 +1,6 @@
-#root {
-  flex-wrap: wrap;
-}
 
-header {
+
+#nav-item, #root {
   position: top, fixed; /* Set position to relative */
   display: flex;
   align-items: center;
@@ -10,7 +8,9 @@ header {
   flex-direction: column; /* Stack items vertically */
   height: 5vh;
 }
+#nav nav-tabs {
 
+}
 #header-image img {
   width: 100%;
   height: 50%; /* Adjust height to fill container */
