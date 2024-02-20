@@ -1,4 +1,6 @@
 // Contact component providing information to contact Maya Marie Hernandez
+import './../../App.jsx'
+
 export default function Contact() {
   return (
     <div>

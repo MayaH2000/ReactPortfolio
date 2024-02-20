@@ -36,6 +36,19 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline; /* Add underline on hover */
 }
+/* Styles for the side nav links */
+.sideNavLink {
+  display: block;
+  padding: 0.5rem;
+  color: #264653;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+/* Styles for the side nav links */
+.sideNavLink:hover {
+  background-color: #f0f0f0;
+}
+
 
 /* Styles for the logo */
 .logo {

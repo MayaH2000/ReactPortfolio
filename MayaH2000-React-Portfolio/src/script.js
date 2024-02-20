@@ -1,4 +1,6 @@
-document.addEventListener('DOMContentLoaded', function() {
+import './App.jsx'
+
+'DOMContentLoaded', function() {
     // Get the container for side nav links
     const sideNav = document.getElementById('sideNav');
   
@@ -33,6 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
       if (event.target.classList.contains('sideNavLink')) {
         event.target.remove(); // Remove the clicked link
       }
-    });
-  });
+    })
+  }
   

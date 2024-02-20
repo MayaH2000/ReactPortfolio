@@ -1,3 +1,5 @@
+import './../../App.jsx'
+
 export default function Blog() {
   return (
     <div>
