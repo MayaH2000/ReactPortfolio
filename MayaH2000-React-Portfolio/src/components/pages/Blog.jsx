@@ -1,9 +1,10 @@
 import './../../App.jsx'
-
+import '../../Index.css';
 export default function Blog() {
   return (
     <div className="blog-content">
-      <h1>Blog Page</h1>
+        <link rel="stylesheet" href="./src/index.css"></link>
+      <h1>Blog</h1>
       <p>
       Originally from California, I've made Kansas my current home, bringing new experiences and a change in surroundings that showcase my adaptability and willingness to explore different environments.
 

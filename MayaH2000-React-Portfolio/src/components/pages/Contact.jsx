@@ -1,11 +1,12 @@
 // Contact component providing information to contact Maya Marie Hernandez
 import './../../App.jsx'
-
+import '../../Index.css';
 export default function Contact() {
   return (
     <div className="contact-content">
+        <link rel="stylesheet" href="./src/index.css"></link>
       {/* Contact details */}
-      <h1>Contact Maya Marie Hernandez</h1>
+      <h1>Contact</h1>
       <p>
         You can reach out to Maya Marie Hernandez for inquiries or collaborations.
         <br />

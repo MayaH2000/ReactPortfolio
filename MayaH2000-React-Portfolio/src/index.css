@@ -8,13 +8,33 @@
   flex-direction: column; /* Stack items vertically */
   height: 5vh;
 }
-#nav nav-tabs {
-
+.header {
+  position: top, fixed; /* Set position to relative */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center items horizontally */
+  flex-direction: column; /* Stack items vertically */
+  height: 5vh;
 }
+
 #header-image img {
   width: 100%;
   height: 50%; /* Adjust height to fill container */
 }
+.about-content, .blog-content, .contact-content, .home-content {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+  position: fixed; /* Set position to absolute */
+  top: 35%; /* Align to 50% from the top */
+  left: 50%; /* Align to 50% from the left */
+  transform: translate(-50%, -50%); /* Adjust to center both horizontally and vertically */
+  margin: 0; /* Remove default margin */
+  z-index: 1; /* Ensure it appears above other elements */
+  text-decoration-color: black;
+  
+}
+
 
 h1 {
   font-size: 3.2em;
