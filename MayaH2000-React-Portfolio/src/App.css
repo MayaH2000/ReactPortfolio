@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    background-color: #2D3142;
+    background-color: #ccd5ae;
     color: white;
   }
   
@@ -28,40 +28,41 @@
   }
   
   .footer {
-    max-width: 1280px;
+    max-width: 100%;
+    height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
     padding: 15px;
-    background-color: #2D3142;
+    background-color: #ccd5ae;
     color: white;
   }
   
   .about-me {
     max-width: 1280px;
     padding: 15px;
-    background-color: #DDD1C7;
+    background-color: #dda15e;
     color: black;
   }
   
   .contact {
     max-width: 1280px;
     padding: 15px;
-    background-color: #DDD1C7;
+    background-color: #cce3de;
     color: black;
   }
   
   .resume {
     max-width: 1280px;
     padding: 15px;
-    background-color: #DDD1C7;
+    background-color: #cce3de;
     color: black;
   }
   
   .portfolio {
     max-width: 1280px;
     padding: 15px;
-    background-color: #DDD1C7;
+    background-color: #cce3de;
     color: black;
   }

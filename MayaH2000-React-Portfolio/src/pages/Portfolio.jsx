@@ -1,17 +1,19 @@
 // Home component displaying Maya Marie Hernandez's portfolio projects
 function Portfolio() {
   return (
-
-    <div className="home-content">
-        <link rel="stylesheet" href="./src/index.css"></link>
-      {/* Introduction to Maya Marie Hernandez's portfolio */}
-      <h1>Home</h1>
-      <p>
-        Welcome to Maya Marie Hernandez's portfolio! Here you can explore a collection
-        of web development projects showcasing various skills and expertise in the field.
-        Feel free to browse through the projects and get inspired!
-      </p>
-    </div>
+      <div className="portfolio">
+          <h1>Maya Hernandez's Portfolio</h1>
+          <h2>Click on the titles for the GitHub links and the images for the deployed applications.</h2>
+          <div>
+              <a href="https://github.com/MayaH2000/BookSearchEngine" target="_blank" rel="noopener noreferrer">
+                <h2>Book Search Engine Github</h2>
+              </a>
+              <a href="https://booksearchengine-s7hz.onrender.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="/BookSearchEngine.png" width={720} height={500} alt="Book Search Engine" />
+              </a>
+          </div>
+      </div>
   );
 }
+
 export default Portfolio;
