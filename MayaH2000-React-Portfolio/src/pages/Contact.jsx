@@ -1,8 +1,6 @@
-// Contact component providing information to contact Maya Marie Hernandez
-import './../../App.jsx'
-import '../../Index.css';
-export default function Contact() {
+function Contact() {
   return (
+
     <div className="contact-content">
         <link rel="stylesheet" href="./src/index.css"></link>
       {/* Contact details */}
@@ -19,3 +17,4 @@ export default function Contact() {
     </div>
   );
 }
+export default Contact;

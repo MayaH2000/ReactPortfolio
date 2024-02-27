@@ -1,9 +1,7 @@
 // Home component displaying Maya Marie Hernandez's portfolio projects
-import '../App.jsx'
-import '../../Index.css';
-
-export default function Home() {
+function Portfolio() {
   return (
+
     <div className="home-content">
         <link rel="stylesheet" href="./src/index.css"></link>
       {/* Introduction to Maya Marie Hernandez's portfolio */}
@@ -16,3 +14,4 @@ export default function Home() {
     </div>
   );
 }
+export default Portfolio;

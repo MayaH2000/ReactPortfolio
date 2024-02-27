@@ -1,6 +1,4 @@
-
-
-const AboutMe = () => {
+function AboutMe() {
   
     return (
     <div className="about-content">
