@@ -1,5 +1,5 @@
 // Home component displaying Maya Marie Hernandez's portfolio projects
-import './../../App.jsx'
+import '../App.jsx'
 import '../../Index.css';
 
 export default function Home() {

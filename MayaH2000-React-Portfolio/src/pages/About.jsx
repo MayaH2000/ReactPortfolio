@@ -1,7 +1,8 @@
-import './../../App.jsx';
-import '../../Index.css';
-export default function About() {
-  return (
+
+
+const AboutMe = () => {
+  
+    return (
     <div className="about-content">
         <link rel="stylesheet" href="./src/index.css"></link>
       <h1>About</h1>
@@ -11,3 +12,5 @@ export default function About() {
     </div>
   );
 }
+
+export default AboutMe;
