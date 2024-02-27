@@ -3,6 +3,10 @@
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+    background-image: url('/rootbackground.JPG');
+  background-size: cover; 
+  background-position: center; 
+  width: 100%;
   }
   
   .header {
