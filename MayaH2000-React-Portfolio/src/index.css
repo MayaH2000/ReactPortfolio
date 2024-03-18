@@ -1,15 +1,16 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 150;
+  font-style: normal;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(0, 0, 0, 0.87);
   background-image: url('/rootbackground.JPG');
   background-size: cover; 
   background-position: center; 
   width: 100%;
-
+  flex-wrap: wrap;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -19,7 +20,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #000000;
   text-decoration: inherit;
 }
 p {
@@ -30,7 +31,7 @@ p {
   margin-inline-end: 0px;
 }
 a:hover {
-  color: #535bf2;
+  color: #000000;
 }
 
 body {
@@ -60,7 +61,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #dda15e;
+  background-color: #000000;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -74,7 +75,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #dda15e;
+    color: #000000;
     background-color: #ffffff;
   }
   a:hover {
