@@ -16,7 +16,7 @@ Hi there! I am Maya. I am a beginner, albeit passionate web developer with slim 
 ## Getting Started
 
 # Application URL
-https://main--mayah2000reactportfolio.netlify.app/
+[https://main--mayah2000reactportfolio.netlify.app/](https://mayah2000reactportfolio.netlify.app/)
 
 # Application
 ![3 18 2024_1 37 13_PM](https://github.com/MayaH2000/ReactPortfolio/assets/101356128/8b6d22fb-4926-4ced-ac35-c3a850e14c54)
