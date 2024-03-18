@@ -12,6 +12,30 @@ function Portfolio() {
                   <img src="/BookSearchEngine.png" width={720} height={500} alt="Book Search Engine" />
               </a>
           </div>
+          <div>
+              <a href="https://github.com/natemcmahon/VANMosaic" target="_blank" rel="noopener noreferrer">
+                <h2>VANMosaic</h2>
+              </a>
+              <a href="https://vanmosaic-29816570a7c2.herokuapp.com//" target="_blank" rel="noopener noreferrer">
+                  <img src="/vanmosaic.png" width={720} height={500} alt="VANMosaic" />
+              </a>
+          </div>
+          <div>
+              <a href="https://github.com/whimsically/gamenight" target="_blank" rel="noopener noreferrer">
+                <h2>GAME NIGHT</h2>
+              </a>
+              <a href="https://glacial-stream-96074-464bdf1b26a2.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="/gamenight.png" width={720} height={500} alt="Game Night" />
+              </a>
+          </div>
+          <div>
+              <a href="https://github.com/evan-hatley/StockGlobetrotter" target="_blank" rel="noopener noreferrer">
+                <h2>StockGlobeTrotter</h2>
+              </a>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                  <img src="/stockglobetrotter.png" width={720} height={500} alt="Stock Globe Trotter" />
+              </a>
+          </div>
       </div>
   );
 }
