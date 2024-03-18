@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Portfolio() {
   return (
     <div className="portfolio">
@@ -5,7 +7,7 @@ function Portfolio() {
       <h2>Click on the titles for the GitHub links and the images for the deployed applications.</h2>
       <div className="portfolio-item">
         <a href="https://github.com/MayaH2000/BookSearchEngine" target="_blank" rel="noopener noreferrer">
-          <h2>Book Search Engine Github</h2>
+          <h2>Book Search Engine</h2>
         </a>
         <a href="https://booksearchengine-s7hz.onrender.com/" target="_blank" rel="noopener noreferrer">
           <img src="/BookSearchEngine.png" width={400} height={200} alt="Book Search Engine" />

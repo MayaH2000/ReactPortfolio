@@ -1,4 +1,5 @@
-import myphoto from '/myphoto.jpg'
+import myphoto from '/myphoto.jpg';
+import React from 'react';
 function AboutMe() {
   
     return (
