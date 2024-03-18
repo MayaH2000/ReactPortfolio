@@ -18,8 +18,8 @@ Hi there! I am Maya. I am a beginner, albeit passionate web developer with slim 
 # Application URL
 https://main--mayah2000reactportfolio.netlify.app/
 
-# Application Screenshot
-<img width="1470" alt="Screenshot 2024-02-27 at 1 20 46 AM" src="https://github.com/MayaH2000/ReactPortfolio/assets/101356128/bc9181c5-46a2-4ee1-b395-9e10136c8c04">
+# Application
+![3 18 2024_1 37 13_PM](https://github.com/MayaH2000/ReactPortfolio/assets/101356128/8b6d22fb-4926-4ced-ac35-c3a850e14c54)
 
 # MIT License
 
