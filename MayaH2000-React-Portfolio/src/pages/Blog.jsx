@@ -1,7 +1,8 @@
+import React from 'react';
+
 function Blog() {
   return (
     <div className="blog-content">
-        <link rel="stylesheet" href="./src/index.css"></link>
       <h1>Blog</h1>
       <p>
       Originally from California, I've made Kansas my current home, bringing new experiences and a change in surroundings that showcase my adaptability and willingness to explore different environments.

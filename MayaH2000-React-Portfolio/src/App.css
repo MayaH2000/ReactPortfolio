@@ -55,27 +55,65 @@
     background-color: #dda15e;
     color: black;
   }
+
+  .about-content {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 25px;
+  }
   
+  .blog {
+    max-width: 1280px;
+    padding: 15px;
+    background-color: #dda15e;
+    color: black;
+  }
+  
+  .blog-content {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 25px;
+  }
+
   .contact {
     max-width: 1280px;
     padding: 15px;
     background-color: #cce3de;
     color: black;
   }
+
+  .contact-title {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 25px;
+  }
+  .contact-info {
+    background-color: #fff;
+    padding: 20px;
+  }
+
   
   .resume {
     max-width: 1280px;
-    padding: 15px;
-    background-color: #cce3de;
+    
     color: black;
+    display: flex; /* Display contents in a row */
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    border-radius: 25%;
   }
+
+  .resume-container {
+    background-color: #fff;
+    padding: 20px;
+}
+
   
   .portfolio {
     max-width: 1280px;
     padding: 100px;
     margin: 100px;
     border: 50px;
-    background-color: rgba(151, 155, 127, 0.8); /* Off-white and semi-transparent */
+    background-color: #fff;
     color: black;
     display: flex; /* Display contents in a row */
     flex-wrap: wrap; /* Allow items to wrap to the next row */
